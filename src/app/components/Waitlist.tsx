@@ -2,7 +2,7 @@ import { FaUser, FaEnvelope, FaLock, FaUserPlus, FaCheckCircle, FaSignInAlt } fr
 
 export default function Waitlist() {
   return (
-    <section className="bg-[#111] text-white py-16 px-6">
+    <section className="bg-black/60 text-white py-16 px-6">
       <div className="mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-12">
         {/* Left Side - Steps */}
         <div>

@@ -4,28 +4,28 @@ const rewards = [
   {
     title: "Instant Rakeback",
     desc: "Earn real-time rewards on every wager – win or lose. Your rakeback builds automatically and is ready to claim anytime.",
-    img: "/rewards/rakeback.png", // apna image path daal
+    img: "/rakeback.png", // apna image path daal
   },
   {
     title: "Rank Bonuses",
     desc: "Climb through VIP tiers just by playing. Each rank unlocks better perks, higher rakeback, and instant one-time bonus rewards.",
-    img: "/rewards/rank.png",
+    img: "/rank.png",
   },
   {
     title: "Reload Bonuses",
     desc: "Never run out with daily, weekly, and monthly reloads, perfectly designed to fuel your grind and keep the action flowing around the clock.",
-    img: "/rewards/reload.png",
+    img: "/reload.png",
   },
   {
     title: "Exclusive Rewards",
     desc: "Earn daily rewards and drops that grow as you play, plus bonuses from events, level-ups, and cashback.",
-    img: "/rewards/exclusive.png",
+    img: "/exclusive.png",
   },
 ];
 
 export default function Rewards() {
   return (
-    <section className="bg-[#111] text-white py-20 px-6">
+    <section className="bg-black/60 text-white py-20 px-6">
       <div className="max-w-6xl mx-auto text-center">
         {/* Tag */}
         <span className="text-sm px-4 py-1 bg-gray-800 rounded-full">

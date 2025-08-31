@@ -13,6 +13,21 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      keyframes: {
+        marquee: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
+        flip: {
+          "0%": { transform: "rotateX(90deg)", opacity: "0" },
+          "50%": { transform: "rotateX(0deg)", opacity: "1" },
+          "100%": { transform: "rotateX(-90deg)", opacity: "0" },
+        },
+      },
+      animation: {
+        marquee: "marquee 20s linear infinite",
+          flip: "flip 2s ease-in-out"
+      },
     },
   },
   plugins: [],

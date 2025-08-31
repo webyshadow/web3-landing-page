@@ -1,9 +1,17 @@
+import { Blinker } from "next/font/google";
+
+const lokko = Blinker({
+  weight: "800", // Extra Bold
+  subsets: ["latin"],
+});
+
+
 export default function Header() {
   return (
     <header className="bg-[#111] px-6 py-4">
       <div className="mx-auto flex max-w-6xl items-center justify-between">
         {/* Logo / Title */}
-        <h1 className="text-2xl font-bold tracking-widest text-white">
+        <h1 className={`${lokko.className} text-2xl font-extrabold tracking-widest text-white`}>
           DEGEN
         </h1>
 
@@ -15,3 +23,4 @@ export default function Header() {
     </header>
   );
 }
+

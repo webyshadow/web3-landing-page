@@ -4,6 +4,7 @@ import Features from "./components/Feature";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import ProvidersMarquee from "./components/ProvidersMarquee";
 import Rewards from "./components/Rewards";
 import Waitlist from "./components/Waitlist";
 
@@ -16,6 +17,7 @@ export default function Home() {
       <Waitlist />
       <Features />
       <Rewards />
+      <ProvidersMarquee />
       <FAQ />
       <Footer />
     </main>

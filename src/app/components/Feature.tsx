@@ -21,7 +21,7 @@ const features: Feature[] = [
 
 export default function Features() {
   return (
-    <section className="bg-black py-16">
+    <section className="bg-black/60 py-16">
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-4">
         {features.map((feature, index) => (
           <div
